@@ -1,0 +1,200 @@
+/* This is the stylesheet for Ed's Gardening website */
+/* It controls how every page looks */
+
+/* This styles the body of every page */
+body {
+  background-color: #f5f0e8;
+  font-family: calibri;
+  color: darkgray;
+  margin: 0;
+  padding: 0;
+}
+
+/* This styles every h1 heading on every page */
+h1 {
+  color: darkgreen;
+  text-align: center;
+}
+
+/* This styles every h2 heading on every page */
+h2 {
+  color: darkgreen;
+  text-align: center;
+}
+
+/* This styles every paragraph on every page */
+p {
+  font-size: 18px;
+  text-align: center;
+}
+
+/* ---- HEADER ---- */
+/* The header sits at the top of every page */
+
+/* This styles the header box */
+header {
+  background-color: darkgreen;
+  text-align: center;
+  padding: 20px;
+}
+
+/* This styles the logo image inside the header */
+/* border-radius is not used here so the logo stays as a plain square box */
+header img {
+  width: 100px;
+  height: 100px;
+  border: 3px solid darkseagreen;
+}
+
+/* This styles the company name inside the header */
+header h1 {
+  color: linen;
+  font-size: 36px;
+}
+
+/* ---- NAVIGATION BAR ---- */
+/* The nav bar sits below the company name in the header */
+
+/* This styles the nav bar background */
+nav {
+  background-color: seagreen;
+  text-align: center;
+  padding: 10px;
+}
+
+/* This removes the bullet points from the nav list */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* This makes each list item sit side by side */
+nav ul li {
+  display: inline;
+}
+
+/* This styles each navigation link */
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+/* This changes the link colour when the mouse hovers over it */
+nav ul li a:hover {
+  background-color: darkgreen;
+  color: green;
+}
+
+/* ---- MAIN CONTENT ---- */
+/* This adds spacing around the main content on every page */
+main {
+  padding: 30px;
+}
+
+/* ---- PHOTOS ---- */
+/* This makes the two photos sit side by side on every page */
+.photo-row {
+  text-align: center;
+}
+
+/* This styles each photo */
+.photo-row img {
+  width: 45%;
+  margin: 10px;
+  border: 3px solid tan;
+}
+
+/* ---- CARDS ---- */
+/* Cards are used for reviews and services boxes */
+
+/* This makes the cards sit side by side */
+.card-row {
+  text-align: center;
+}
+
+/* This styles each individual card box */
+.card {
+  display: inline-block;
+  background-color: white;
+  border: 2px solid tan;
+  width: 28%;
+  margin: 10px;
+  padding: 20px;
+  vertical-align: top;
+  text-align: left;
+}
+
+/* This styles the heading inside a card */
+.card h3 {
+  color: darkgreen;
+}
+
+/* ---- CONTACT PAGE ---- */
+/* This puts the contact info and map side by side */
+.contact-left {
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+  padding: 20px;
+}
+
+.contact-right {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  padding: 20px;
+}
+
+/* This removes the bullet points from the contact list */
+.contact-left ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* This adds spacing between each contact item */
+.contact-left ul li {
+  font-size: 18px;
+  padding: 10px 0;
+  border-bottom: 1px solid tan;
+}
+
+/* This styles links inside the contact list */
+.contact-left ul li a {
+  color: tan;
+  text-decoration: none;
+}
+
+/* ---- FOOTER ---- */
+/* The footer sits at the bottom of every page */
+
+/* This styles the footer box */
+footer {
+  background-color: darkgreen;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+/* This styles links inside the footer */
+footer a {
+  color: darkseagreen;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+/* This changes footer links when hovered */
+footer a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/* This styles the small copyright text at the bottom */
+footer p {
+  font-size: 14px;
+  color: darkseagreen;
+}
